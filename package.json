@@ -1,0 +1,23 @@
+{
+  "name": "koa2-item",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set PORT=3333 && node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "koa": "next",
+    "koa-router": "7",
+    "koa-static": "^4.0.2",
+    "koa2-cors": "^2.0.5"
+  }
+}
